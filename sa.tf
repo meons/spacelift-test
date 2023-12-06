@@ -13,7 +13,7 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_storage_account" "example" {
+/*resource "azurerm_storage_account" "example" {
   name                     = "mysatestsimeon001"
   resource_group_name      = "rg-gch-ch-prod-gchjbx"
   location                 = "West Europe"
@@ -23,4 +23,4 @@ resource "azurerm_storage_account" "example" {
   tags = {
     environment = "test"
   }
-}
+}*/
