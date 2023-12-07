@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_storage_account" "example" {
   name                     = "mysatestsimeon001"
-  resource_group_name      = "rg-poc-chw365"
+  resource_group_name      = "rg-gch-ch-prod-gchjbx"
   location                 = "West Europe"
   account_tier             = "Standard"
   account_replication_type = "GRS"
